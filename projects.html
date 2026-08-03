@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Jagan Mohan Lingam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="loading-spinner">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+                <span class="logo-badge">J</span>
+                <span class="brand-text">Jagan Mohan</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="certificates.html">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="theme-toggle" class="btn btn-sm btn-outline-secondary rounded-circle p-2" title="Toggle Dark/Light Mode">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content py-5 mt-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="display-5 fw-bold mb-2">Featured <span class="text-gradient">Projects</span></h2>
+                <p class="text-muted">Innovative software and systems developed to solve real-world problems</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 animate-on-scroll">
+                    <div class="card border-0 shadow-sm glass-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between project-card">
+                        <div>
+                            <div class="mb-3 text-primary fs-2"><i class="fas fa-lightbulb"></i></div>
+                            <h3 class="h4 fw-bold mb-3">Automated Light Detection System</h3>
+                            <p class="text-muted mb-4">Developed an automated lighting system that detects ambient light intensity and controls lights automatically to improve energy efficiency.</p>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">IoT</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Hardware Sensors</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Automation</span>
+                            </div>
+                            <a href="https://github.com/jagan-s22" target="_blank" class="btn btn-outline-primary w-100 rounded-pill d-flex align-items-center justify-content-center gap-2">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 animate-on-scroll">
+                    <div class="card border-0 shadow-sm glass-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between project-card">
+                        <div>
+                            <div class="mb-3 text-primary fs-2"><i class="fas fa-water"></i></div>
+                            <h3 class="h4 fw-bold mb-3">Algae Bloom Detection System</h3>
+                            <p class="text-muted mb-4">Designed a system for early detection and monitoring of algae blooms using environmental data to support timely decision-making.</p>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Python</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Data Analysis</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Environmental Tech</span>
+                            </div>
+                            <a href="https://github.com/jagan-s22" target="_blank" class="btn btn-outline-primary w-100 rounded-pill d-flex align-items-center justify-content-center gap-2">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 animate-on-scroll">
+                    <div class="card border-0 shadow-sm glass-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between project-card">
+                        <div>
+                            <div class="mb-3 text-primary fs-2"><i class="fas fa-heartbeat"></i></div>
+                            <h3 class="h4 fw-bold mb-3">Remote Patient Monitoring System</h3>
+                            <p class="text-muted mb-4">Built a system to remotely monitor patients' vital signs, enabling real-time health tracking and improved healthcare accessibility.</p>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Java</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">Spring Boot</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary px-2 py-1 rounded">REST APIs</span>
+                            </div>
+                            <a href="https://github.com/jagan-s22" target="_blank" class="btn btn-outline-primary w-100 rounded-pill d-flex align-items-center justify-content-center gap-2">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-section py-5 mt-5 border-top border-secondary border-opacity-25">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h5 class="fw-bold text-gradient mb-2">Jagan Mohan Lingam</h5>
+                    <p class="text-muted small mb-0">Passionate Computer Science student and AI Engineer building innovative solutions.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links mb-3">
+                        <a href="https://github.com/jagan-s22" target="_blank" class="btn btn-outline-light btn-sm rounded-circle me-2" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jaganmohanlingam/" target="_blank" class="btn btn-outline-light btn-sm rounded-circle me-2" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:lingamjagan12@gmail.com" class="btn btn-outline-light btn-sm rounded-circle" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p class="text-muted small mb-0">&copy; 2026 Jagan Mohan Lingam. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="btn btn-primary rounded-circle shadow" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
